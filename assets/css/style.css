@@ -1,4 +1,10 @@
 /* Общие стили */
+@font-face {
+    font-family: 'Prata';
+    src: url('../fonts/Prata.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 *,
 ::before,
 ::after {
@@ -7,7 +13,7 @@
 
 body {
     margin: 0;
-    font-family: Merienda, sans-serif;
+    font-family: Prata;
     line-height: 1.2;
     background: #000;
 }
